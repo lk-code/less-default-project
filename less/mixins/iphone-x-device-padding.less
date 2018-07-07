@@ -1,0 +1,20 @@
+.iphonex-padding-all () {
+    .iphonex-padding-left();
+    .iphonex-padding-right();
+    .iphonex-padding-bottom();
+}
+  
+.iphonex-padding-left () {
+    padding-left: constant(safe-area-inset-left) !important;
+    padding-left: env(safe-area-inset-left) !important;
+}
+  
+.iphonex-padding-right () {
+    padding-right: constant(safe-area-inset-right) !important;
+    padding-right: env(safe-area-inset-right) !important;
+}
+  
+.iphonex-padding-bottom () {
+    padding-bottom: constant(safe-area-inset-bottom) !important;
+    padding-bottom: env(safe-area-inset-bottom) !important;
+}
